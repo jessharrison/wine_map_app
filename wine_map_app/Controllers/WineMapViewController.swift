@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+import MapKit
+
+class WineMapViewController: UIViewController {
+    
+    @IBOutlet weak var map: MKMapView!
+    
+    override func viewDidLoad() {
+        
+    }
+}
