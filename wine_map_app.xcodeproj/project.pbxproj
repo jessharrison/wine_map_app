@@ -11,6 +11,7 @@
 		03041AD221C22D7C00775B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03041AD021C22D7C00775B9E /* Main.storyboard */; };
 		03041AD421C22D7E00775B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03041AD321C22D7E00775B9E /* Assets.xcassets */; };
 		03041AD721C22D7E00775B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03041AD521C22D7E00775B9E /* LaunchScreen.storyboard */; };
+		03041ADF21C239A200775B9E /* WineMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03041ADE21C239A200775B9E /* WineMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		03041AD321C22D7E00775B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03041AD621C22D7E00775B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03041AD821C22D7E00775B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03041ADE21C239A200775B9E /* WineMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,45 @@
 			isa = PBXGroup;
 			children = (
 				03041ACC21C22D7C00775B9E /* AppDelegate.swift */,
-				03041AD021C22D7C00775B9E /* Main.storyboard */,
+				03041AE321C239BB00775B9E /* View Models */,
+				03041AE221C239B600775B9E /* Views */,
+				03041AE121C239B000775B9E /* Controllers */,
+				03041AE021C239A800775B9E /* Models */,
 				03041AD321C22D7E00775B9E /* Assets.xcassets */,
-				03041AD521C22D7E00775B9E /* LaunchScreen.storyboard */,
 				03041AD821C22D7E00775B9E /* Info.plist */,
 			);
 			path = wine_map_app;
+			sourceTree = "<group>";
+		};
+		03041AE021C239A800775B9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03041AE121C239B000775B9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03041ADE21C239A200775B9E /* WineMapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		03041AE221C239B600775B9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03041AD521C22D7E00775B9E /* LaunchScreen.storyboard */,
+				03041AD021C22D7C00775B9E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03041AE321C239BB00775B9E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03041ADF21C239A200775B9E /* WineMapViewController.swift in Sources */,
 				03041ACD21C22D7C00775B9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
